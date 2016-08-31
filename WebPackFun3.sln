@@ -3,7 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPackFun3.Library", "WebPackFun3.Library\WebPackFun3.Library.csproj", "{C9DAC710-B59C-4FA5-A887-98614E50BBF0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebPackFun3.Web", "WebPackFun3.Web\", "{875D3480-9A3D-4787-84D2-70EC66D7DDB0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_28624"
+		Debug.AspNetCompiler.PhysicalPath = "WebPackFun3.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28624\"
+		Debug.AspNetCompiler.Updateable = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_28624"
+		Release.AspNetCompiler.PhysicalPath = "WebPackFun3.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28624\"
+		Release.AspNetCompiler.Updateable = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "28624"
+		SlnRelativePath = "WebPackFun3.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DAC710-B59C-4FA5-A887-98614E50BBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DAC710-B59C-4FA5-A887-98614E50BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DAC710-B59C-4FA5-A887-98614E50BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DAC710-B59C-4FA5-A887-98614E50BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875D3480-9A3D-4787-84D2-70EC66D7DDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875D3480-9A3D-4787-84D2-70EC66D7DDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875D3480-9A3D-4787-84D2-70EC66D7DDB0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{875D3480-9A3D-4787-84D2-70EC66D7DDB0}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
